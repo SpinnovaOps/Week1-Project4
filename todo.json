@@ -1,0 +1,113 @@
+{
+    "tasks": [
+        {
+            "id": 1,
+            "task": "AI Agents Project",
+            "completed": false
+        },
+        {
+            "id": 2,
+            "task": "Send a mail to Chandramouli sir and Nanjappa Sir on Expectations and Skills Rating",
+            "completed": false
+        },
+        {
+            "id": 3,
+            "task": "Oh my god agents",
+            "completed": false
+        }
+    ],
+    "recently_added": [
+        {
+            "id": 3,
+            "task": "Schedule meeting",
+            "completed": false
+        },
+        {
+            "id": 3,
+            "task": "AI Agents Project",
+            "completed": false
+        },
+        {
+            "id": 4,
+            "task": "Send a mail to Chandramouli sir and Nanjappa Sir on Expectations and Skills Rating",
+            "completed": false
+        },
+        {
+            "id": 4,
+            "task": "Get Carrot, Tomato, Potato",
+            "completed": false
+        },
+        {
+            "id": 5,
+            "task": "AI Agents Project",
+            "completed": false
+        },
+        {
+            "id": 5,
+            "task": "hhiud",
+            "completed": false
+        },
+        {
+            "id": 6,
+            "task": "AI Agents Project 3",
+            "completed": false
+        },
+        {
+            "id": 1,
+            "task": "AI Agents Project",
+            "completed": false
+        },
+        {
+            "id": 2,
+            "task": "Send a mail to Chandramouli sir and Nanjappa Sir on Expectations and Skills Rating",
+            "completed": false
+        },
+        {
+            "id": 3,
+            "task": "Oh my god agents",
+            "completed": false
+        }
+    ],
+    "recently_deleted": [
+        {
+            "id": 4,
+            "task": "Send a mail to Chandramouli sir and Nanjappa Sir on Expectations and Skills Rating",
+            "completed": false
+        },
+        {
+            "id": 4,
+            "task": "Get Carrot, Tomato, Potato",
+            "completed": false
+        },
+        {
+            "id": 1,
+            "task": "Buy groceries",
+            "completed": false
+        },
+        {
+            "id": 2,
+            "task": "Complete assignment",
+            "completed": true
+        },
+        {
+            "id": 3,
+            "task": "AI Agents Project",
+            "completed": false
+        },
+        {
+            "id": 5,
+            "task": "AI Agents Project",
+            "completed": false
+        },
+        {
+            "id": 5,
+            "task": "hhiud",
+            "completed": false
+        },
+        {
+            "id": 6,
+            "task": "AI Agents Project 3",
+            "completed": false
+        }
+    ]
+}

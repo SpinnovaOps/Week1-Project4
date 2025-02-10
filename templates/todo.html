@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+</head>
+<body>
+    <h1>Todo List</h1>
+
+    <h2>Add a Task</h2>
+    <form method="POST" action="/add-task">
+        <input type="text" name="task" placeholder="New task" required>
+        <input type="submit" value="Add Task">
+    </form>
+
+    <h2>Tasks</h2>
+    <ul>
+        {% for task in tasks %}
+            <li>{{ task['task'] }} <form action="/delete-task/{{ task['id'] }}" method="POST"><input type="submit" value="Delete"></form></li>
+        {% endfor %}
+    </ul>
+
+    <h2>Recently Added Tasks</h2>
+    <ul>
+        {% for task in recent_added %}
+            <li>{{ task['task'] }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Recently Deleted Tasks</h2>
+    <ul>
+        {% for task in recent_deleted %}
+            <li>{{ task['task'] }}</li>
+        {% endfor %}
+    </ul>
+
+</body>
+</html>
